@@ -5,11 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BussinesCourse
+namespace BussinesCourse.Campaigns
 {
-    public interface ICourseService
+    public interface ICampaignService
     {
-        List<Course> GetCourses();
+        void AppyDiscount(List<Course> courses);
     }
-    
 }

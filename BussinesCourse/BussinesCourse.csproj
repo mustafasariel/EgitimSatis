@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Campaigns\PercentDiscount.cs" />
+    <Compile Include="Campaigns\StandartPrice.cs" />
+    <Compile Include="Campaigns\ICampaignService.cs" />
     <Compile Include="CourseManager.cs" />
     <Compile Include="ICourseService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

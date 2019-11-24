@@ -1,4 +1,5 @@
 ﻿using BussinesCourse;
+using BussinesCourse.Campaigns;
 using CourseDal.Concrete;
 using EntityCourse;
 using System;
@@ -13,7 +14,7 @@ namespace EgitimSatis
     {
         static void Main(string[] args)
         {
-            ICourseService courseService = new CourseManager(new EfCourseDal());
+            ICourseService courseService = new CourseManager(new EfCourseDal(), new PercentDiscount());
 
             foreach (var item in courseService.GetCourses())
             {

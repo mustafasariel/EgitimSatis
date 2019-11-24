@@ -14,9 +14,9 @@ namespace CourseDal.Concrete
         {
             List<Course> courses = new List<Course>()
             {
-                new Course(){Id=1,Name="C#",Price=10},
-                new Course(){Id=2,Name="Sql",Price=10},
-                new Course(){Id=3,Name="net core",Price=10}
+                new Course(){Id=1,Name="C#",Price=100},
+                new Course(){Id=2,Name="Sql",Price=100},
+                new Course(){Id=3,Name="net core",Price=100}
             };
             return courses;
         }
