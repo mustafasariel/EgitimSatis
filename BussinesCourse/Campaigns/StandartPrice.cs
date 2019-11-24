@@ -19,7 +19,7 @@ namespace BussinesCourse.Campaigns
         }
         public decimal GetStandartPrice()
         {
-            return 44;
+            return 50;
         }
     }
 }
